@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jobs | HRBaires — Open Roles</title>
+<meta name="description" content="Open roles at HRBaires and at the companies we work with as a hiring partner. Filter by department, work setup and location, and apply directly.">
+<meta name="theme-color" content="#111111">
+<link rel="canonical" href="https://www.hrbaires.com/jobs_en.html">
+<link rel="alternate" hreflang="es" href="https://www.hrbaires.com/jobs.html">
+<link rel="alternate" hreflang="en" href="https://www.hrbaires.com/jobs_en.html">
+<link rel="alternate" hreflang="x-default" href="https://www.hrbaires.com/jobs.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HRBaires">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_AR">
+<meta property="og:url" content="https://www.hrbaires.com/jobs_en.html">
+<meta property="og:title" content="Jobs | HRBaires — Open Roles">
+<meta property="og:description" content="Open roles at HRBaires and at the companies we work with as a hiring partner.">
+<meta property="og:image" content="https://www.hrbaires.com/og_es.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jobs | HRBaires — Open Roles">
+<meta name="twitter:description" content="Open roles at HRBaires and at the companies we work with as a hiring partner.">
+<meta name="twitter:image" content="https://www.hrbaires.com/og_es.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#111111;
+    --yellow:#FFD400;
+    --bone:#FAFAF7;
+    --ash:#C9C9C9;
+    --graphite:#3A3A3A;
+    --hair-dark:rgba(255,255,255,0.16);
+    --hair-light:rgba(0,0,0,0.14);
+    --maxw:1200px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Inter',sans-serif;
+    background:var(--bone);
+    color:var(--graphite);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{display:block;max-width:100%;}
+  a{color:inherit;text-decoration:none;}
+  ul{list-style:none;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px;}
+  h1,h2,h3{
+    font-family:'Archivo Black',Helvetica,sans-serif;
+    text-transform:uppercase;
+    letter-spacing:-0.03em;
+    line-height:0.97;
+    font-weight:400;
+  }
+  section{position:relative;}
+  .section-pad{padding:96px 0;}
+  .kicker{
+    display:inline-flex;align-items:center;
+    font-family:'Inter',sans-serif;font-weight:700;text-transform:uppercase;
+    letter-spacing:0.2em;font-size:11px;
+  }
+  .kicker--yellow{color:var(--yellow);}
+  .kicker--ink{color:var(--ink);}
+  .kicker--ash{color:var(--graphite);}
+
+  /* ===== HEADER ===== */
+  header{
+    position:sticky;top:0;left:0;right:0;z-index:100;
+    background:rgba(17,17,17,0.94);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--hair-dark);
+  }
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .brand img{height:30px;width:30px;}
+  .brand span{font-family:'Archivo Black',sans-serif;color:var(--bone);font-size:16px;letter-spacing:0.02em;}
+  nav.main-nav ul{display:flex;gap:36px;}
+  nav.main-nav a{
+    font-size:12px;font-weight:600;text-transform:uppercase;
+    letter-spacing:0.12em;color:var(--ash);
+    transition:color .15s ease;
+  }
+  nav.main-nav a:hover{color:var(--bone);}
+  nav.main-nav a.is-active{color:var(--yellow);}
+  .header-actions{display:flex;align-items:center;gap:20px;}
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    font-family:'Inter',sans-serif;font-weight:700;font-size:12px;
+    text-transform:uppercase;letter-spacing:0.1em;
+    padding:14px 26px;border-radius:2px;
+    cursor:pointer;border:1px solid transparent;
+    transition:background .15s ease,color .15s ease,border-color .15s ease,transform .15s ease;
+    white-space:nowrap;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .btn--outline-dark{border-color:var(--hair-dark);color:var(--bone);background:transparent;}
+  .btn--outline-dark:hover{border-color:var(--bone);}
+  .btn--solid-bone{background:var(--bone);color:var(--ink);}
+  .btn--solid-bone:hover{background:#fff;}
+  .btn--outline-light{border-color:var(--hair-light);color:var(--ink);background:transparent;}
+  .btn--outline-light:hover{border-color:var(--ink);}
+  .btn--solid-ink{background:var(--ink);color:var(--bone);}
+  .btn--solid-ink:hover{background:#000;}
+  .btn--sm{padding:12px 20px;font-size:11px;}
+  .menu-toggle{display:none;background:none;border:none;color:var(--bone);font-size:22px;cursor:pointer;}
+  .lang-toggle{
+    font-size:12px;font-weight:700;color:var(--ash);letter-spacing:0.08em;
+    border:1px solid var(--hair-dark);border-radius:2px;padding:6px 10px;
+    transition:color .15s ease,border-color .15s ease;
+  }
+  .lang-toggle:hover{color:var(--bone);border-color:var(--bone);}
+
+  /* ===== JOBS HERO ===== */
+  .jobs-hero{background:var(--ink);padding:96px 0 72px;}
+  .jobs-hero-kicker{border:1px solid var(--yellow);color:var(--yellow);padding:7px 16px;border-radius:999px;margin-bottom:28px;}
+  .jobs-hero h1{color:var(--bone);font-size:clamp(2.1rem,5vw,3.6rem);max-width:820px;}
+  .jobs-hero h1 .accent{color:var(--yellow);}
+  .jobs-hero p.subhead{color:var(--ash);font-size:clamp(1rem,1.4vw,1.15rem);max-width:600px;margin-top:22px;}
+
+  /* ===== FILTERS ===== */
+  .filters{background:var(--bone);border-bottom:1px solid var(--hair-light);padding:32px 0;position:sticky;top:76px;z-index:60;}
+  .filters-bar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;}
+  .filters-bar .field{flex:1 1 220px;min-width:180px;}
+  .filters-bar input[type="search"],
+  .filters-bar select{
+    width:100%;background:#fff;border:1px solid var(--hair-light);border-radius:2px;
+    padding:13px 14px;font-family:'Inter',sans-serif;font-size:14px;color:var(--ink);
+    appearance:none;
+  }
+  .filters-bar select{
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0l5 6 5-6z' fill='%233A3A3A'/></svg>");
+    background-repeat:no-repeat;background-position:right 14px center;padding-right:32px;
+  }
+  .filters-bar input:focus,.filters-bar select:focus{outline:none;border-color:var(--ink);}
+  .filters-count{font-size:12.5px;color:var(--graphite);margin-top:14px;}
+
+  /* ===== JOB LIST ===== */
+  .job-list{padding:56px 0 40px;}
+  .job-card{
+    background:#fff;border:1px solid var(--hair-light);border-left:4px solid var(--yellow);
+    border-radius:2px;padding:28px 28px 22px;margin-bottom:16px;
+    transition:transform .2s ease,border-color .2s ease;
+  }
+  .job-card:hover{transform:translateY(-2px);}
+  .job-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;}
+  .job-card-title{flex:1 1 420px;}
+  .job-tag{
+    display:inline-block;font-size:10.5px;font-weight:700;text-transform:uppercase;
+    letter-spacing:0.1em;color:var(--ink);background:rgba(255,212,0,0.35);
+    padding:4px 10px;border-radius:999px;margin-bottom:10px;
+  }
+  .job-card h3{
+    font-family:'Inter',sans-serif;font-weight:700;color:var(--ink);
+    text-transform:none;letter-spacing:0;font-size:18px;line-height:1.3;
+  }
+  .job-card h3 .job-sub{font-weight:500;color:var(--graphite);font-size:15px;}
+  .job-apply{flex:0 0 auto;}
+  .job-meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--graphite);}
+  .job-meta span{display:inline-flex;align-items:center;gap:6px;}
+  .job-details{margin-top:16px;border-top:1px solid var(--hair-light);padding-top:14px;}
+  .job-details summary{
+    cursor:pointer;font-size:12.5px;font-weight:700;text-transform:uppercase;
+    letter-spacing:0.08em;color:var(--graphite);list-style:none;
+  }
+  .job-details summary::-webkit-details-marker{display:none;}
+  .job-details summary::before{content:"+ ";color:var(--ink);}
+  .job-details[open] summary::before{content:"– ";}
+  .job-details p{font-size:14.5px;color:var(--graphite);margin-top:12px;max-width:760px;}
+  .job-skills{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;}
+  .job-skills span{
+    font-size:11.5px;font-weight:600;color:var(--ink);background:var(--bone);
+    border:1px solid var(--hair-light);padding:4px 10px;border-radius:999px;
+  }
+  .no-results{display:none;text-align:center;padding:48px 0;color:var(--graphite);font-size:15px;}
+
+  /* ===== PYJAMA BANNER ===== */
+  .pyjama-banner{background:var(--ink);padding:56px 0;}
+  .pyjama-banner .wrap{
+    display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;
+  }
+  .pyjama-banner p{color:var(--ash);font-size:15.5px;max-width:560px;}
+  .pyjama-banner strong{color:var(--bone);}
+
+  /* ===== FOOTER ===== */
+  footer{background:var(--bone);border-top:1px solid var(--hair-light);padding:56px 0 32px;}
+  .footer-top{
+    display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:32px;
+    padding-bottom:36px;border-bottom:1px solid var(--hair-light);margin-bottom:24px;
+  }
+  .footer-brand{display:flex;align-items:center;gap:10px;}
+  .footer-brand img{height:26px;width:26px;}
+  .footer-brand span{font-family:'Archivo Black',sans-serif;color:var(--ink);font-size:15px;}
+  footer nav ul{display:flex;gap:28px;flex-wrap:wrap;}
+  footer nav a{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--graphite);}
+  footer nav a:hover{color:var(--ink);}
+  .footer-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:13px;color:var(--graphite);}
+
+  /* ===== FLOATING CTA ===== */
+  .floating-cta{
+    position:fixed;right:28px;bottom:28px;z-index:200;
+    background:var(--ink);color:var(--bone);border:1px solid var(--hair-dark);
+    padding:14px 22px;border-radius:999px;
+    font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;
+    display:flex;align-items:center;gap:8px;
+    transition:background .15s ease,color .15s ease,border-color .15s ease;
+  }
+  .floating-cta:hover{background:var(--yellow);color:var(--ink);border-color:var(--yellow);}
+
+  /* ===== MOTION ===== */
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s cubic-bezier(.16,.8,.3,1),transform .6s cubic-bezier(.16,.8,.3,1);}
+  .reveal.is-visible{opacity:1;transform:translateY(0);}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
+
+  @media (max-width:860px){
+    nav.main-nav{display:none;}
+    .menu-toggle{display:block;}
+    .header-actions{gap:12px;}
+    .section-pad{padding:64px 0;}
+    .wrap{padding:0 20px;}
+    .filters{top:0;}
+  }
+  @media (max-width:480px){
+    .jobs-hero{padding:72px 0 48px;}
+    .job-card{padding:22px 18px 18px;}
+    .header-actions .btn{display:none;}
+    .brand span{font-size:14px;}
+    .lang-toggle{padding:5px 8px;font-size:11px;}
+    .pyjama-banner .wrap{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="hrbaires_home_en.html">
+      <img src="robot_yellow_v2.png" alt="HRBaires" width="233" height="233">
+      <span>HRBAIRES</span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="hrbaires_home_en.html#top">Home</a></li>
+        <li><a href="hrbaires_home_en.html#services">Services</a></li>
+        <li><a href="hrbaires_home_en.html#founder">About</a></li>
+        <li><a href="jobs_en.html" class="is-active">Jobs</a></li>
+        <li><a href="hrbaires_home_en.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="jobs.html" class="lang-toggle" aria-label="Cambiar a español">ES</a>
+      <a href="hrbaires_home_en.html#contact" class="btn btn--outline-dark">Let's Talk</a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="jobs-hero">
+  <div class="wrap">
+    <span class="jobs-hero-kicker kicker">Open roles</span>
+    <h1>Scaling teams are looking for <span class="accent">people like this.</span></h1>
+    <p class="subhead">Open positions at HRBaires and at the companies we work with as a hiring partner. Apply directly — no extra middlemen.</p>
+  </div>
+</section>
+
+<section class="filters">
+  <div class="wrap">
+    <div class="filters-bar">
+      <div class="field">
+        <input type="search" id="jobSearch" placeholder="Search by role or skill…" aria-label="Search open roles">
+      </div>
+      <div class="field">
+        <select id="jobDept" aria-label="Filter by department">
+          <option value="">All departments</option>
+          <option value="Operaciones">Operations / Technical</option>
+          <option value="Data">Data</option>
+          <option value="IT">IT</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Marketing">Marketing</option>
+          <option value="Finance">Finance</option>
+        </select>
+      </div>
+      <div class="field">
+        <select id="jobModality" aria-label="Filter by work setup">
+          <option value="">Any work setup</option>
+          <option value="Remote">Remote</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="In-Office">On-site</option>
+        </select>
+      </div>
+    </div>
+    <p class="filters-count" id="filtersCount"></p>
+  </div>
+</section>
+
+<section class="job-list">
+  <div class="wrap">
+
+    <article class="job-card reveal" data-title="technical service manager heavy machinery industrial equipment" data-dept="Operaciones" data-modality="In-Office">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Operations</span>
+          <h3>Technical Service Manager <span class="job-sub">— Heavy Machinery & Industrial Equipment</span></h3>
+        </div>
+        <a href="https://jobs.pyjamahr.com/hrbaires/responsable-de-servicio-tecnico-maquinaria-pesada-y-equipos-industriales" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 On-site · Villa Adelina, Buenos Aires</span>
+        <span>💼 2–4 years</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>You'll lead the technical service area for heavy machinery and industrial equipment: diagnostics, maintenance, and managing the on-site technical team.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Planning and overseeing preventive and corrective maintenance</li>
+          <li>Managing and developing the on-site technical team</li>
+          <li>Diagnosing faults on heavy machinery and industrial equipment</li>
+        </ul>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="junior data analyst sql python bigquery" data-dept="Data" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Data</span>
+          <h3>Junior Data Analyst <span class="job-sub">(SQL · Python · BigQuery)</span></h3>
+        </div>
+        <a href="https://jobs.pyjamahr.com/hrbaires/junior-data-analyst-sql-python-bigquery" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Colombia</span>
+        <span>💼 2–3 years</span>
+        <span>💰 USD 1,500–2,000/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>You'll join a small data team that builds the pipelines, models and reporting behind the financial analysis delivered to US consumer brands. You'll report to the Data Lead (Bogotá) and collaborate with a US-based finance team.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>SQL to extract, clean and transform data from multiple client sources</li>
+          <li>Data models in dbt on top of BigQuery and PostgreSQL</li>
+          <li>Python automation for data ingestion, cleaning and recurring reporting</li>
+          <li>KPI dashboards, budget vs. actuals, and cohort/retention/LTV analysis</li>
+        </ul>
+        <div class="job-skills"><span>SQL</span><span>Python</span><span>BigQuery</span><span>dbt</span><span>PostgreSQL</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="it help desk specialist" data-dept="IT" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">IT</span>
+          <h3>IT Help Desk Specialist</h3>
+        </div>
+        <a href="https://jobs.pyjamahr.com/hrbaires/it-help-desk-specialist" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Latin America</span>
+        <span>💼 2–4 years</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>Day-to-day technical support: IT tickets, Windows and Outlook troubleshooting, password and permission issues — covering U.S. time zones. Customer-facing position, C2 English required.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>First-line IT support and ticket resolution</li>
+          <li>Windows, Outlook and server access troubleshooting</li>
+          <li>Password and user permission management</li>
+          <li>Time zone coverage for West Coast and East Coast (U.S.) users</li>
+        </ul>
+        <div class="job-skills"><span>Windows</span><span>Outlook</span><span>IT Help Desk</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="python backend developer aws integrations" data-dept="Engineering" data-modality="Hybrid">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Python Backend Developer <span class="job-sub">(AWS & Integrations)</span></h3>
+        </div>
+        <a href="https://jobs.pyjamahr.com/hrbaires/python-backend-developer-aws-integrations" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Hybrid · CABA, Buenos Aires</span>
+        <span>💼 2–4 years</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>You'll build and maintain integrations between HubSpot, operational databases and external services, with serverless functions on AWS (Lambda, API Gateway).</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>AWS Lambda functions in Python and bidirectional HubSpot ↔ MySQL integrations</li>
+          <li>Processing webhooks and building new third-party API integrations</li>
+          <li>Designing MySQL tables and endpoints on AWS API Gateway</li>
+          <li>Detecting and fixing data inconsistencies across systems</li>
+        </ul>
+        <div class="job-skills"><span>Python</span><span>AWS Lambda</span><span>API Gateway</span><span>MySQL</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="frontend engineer remote web3 react next js" data-dept="Engineering" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Frontend Engineer <span class="job-sub">(Remote) — Web3 / React / Next.js</span></h3>
+        </div>
+        <a href="https://jobs.pyjamahr.com/hrbaires/frontend-engineer-remote-web3-react-nextjs" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina</span>
+        <span>💼 3–5 years</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>You'll build product interfaces in React and Next.js for a Web3 product: wallet integrations, onboarding UX, and gasless flows. Fluent English, GMT+2 overlap.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>3–4 years with React and Next.js (TypeScript), state management with Redux/React Query</li>
+          <li>Web3 wallet integration (MetaMask, WalletConnect) and EVM concepts</li>
+          <li>Working directly with UX/UI designers on production-ready code</li>
+          <li>Unit and e2e tests, PR reviews, and shared component libraries</li>
+        </ul>
+        <div class="job-skills"><span>React</span><span>Next.js</span><span>Web3</span><span>TypeScript</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="lead database data platform engineer sql server aws mysql" data-dept="Engineering" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Lead Database &amp; Data Platform Engineer <span class="job-sub">— partner company (Fintech, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=bGVhZC1kYXRhYmFzZS1kYXRhLXBsYXRmb3JtLWVuZ2luZWVyLWQ0YWZlMzc0P3JlZmVycmFsPWhyYmFpcmVz" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+        </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 7+ years</span>
+        <span>💰 USD 5,000–8,000/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>You'll lead SQL Server and AWS administration and modernization for a US fintech: version upgrades, high availability, and data standards across two legacy stacks left over from a merger.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Recent SQL Server upgrade (source/target version and paired Windows Server)</li>
+          <li>High availability: Always On Availability Groups, failover clustering</li>
+          <li>AWS: EC2, RDS, S3, IAM, CloudWatch</li>
+          <li>Daily use of AI tools (Claude) in your work</li>
+          <li>End-to-end ownership of a database estate left without a single owner since a merger</li>
+        </ul>
+        <div class="job-skills"><span>SQL Server</span><span>AWS</span><span>MySQL</span><span>Windows Server</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="full stack engineer systems architect typescript python" data-dept="Engineering" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Full-stack Engineer &amp; Systems Architect <span class="job-sub">— partner company (Enterprise Software, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=ZnVsbC1zdGFjay1lbmdpbmVlci1hbmQtc3lzdGVtcy1hcmNoaXRlY3QtZDBkMTk2NWY/cmVmZXJyYWw9aHJiYWlyZXM=" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 8+ years</span>
+        <span>💰 USD 4,500–7,500/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>You'll lead full-stack architecture for an enterprise software platform: TypeScript, Python, AI coding agents in the dev workflow, and WhatsApp Cloud API integrations.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>8+ years of software development, strong in TypeScript and Python</li>
+          <li>Experience directing AI coding agents with rigorous review and verification</li>
+          <li>Component-driven front-ends and data-heavy internal consoles</li>
+          <li>Postgres experience, including migrations</li>
+        </ul>
+        <div class="job-skills"><span>TypeScript</span><span>Python</span><span>CI/CD</span><span>WhatsApp Cloud API</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="solutions engineer api integrations postman whatsapp" data-dept="Engineering" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Solutions Engineer <span class="job-sub">— partner company (Enterprise Software, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=c29sdXRpb25zLWVuZ2luZWVyLWQxNDA5YzY0P3JlZmVycmFsPWhyYmFpcmVz" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 5+ years</span>
+        <span>💰 USD 4,500–7,500/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>A client-facing role in business English: API integrations, Postman, and direct technical support for a US enterprise software company's clients.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Exceptional business English — this is a fully client-facing role</li>
+          <li>Previous experience at a US company and its business culture</li>
+          <li>Strong code-reading skills to evaluate partner work firsthand</li>
+        </ul>
+        <div class="job-skills"><span>API Integrations</span><span>Postman</span><span>WhatsApp Cloud API</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="growth marketer gong salesforce hubspot" data-dept="Marketing" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Marketing</span>
+          <h3>Growth Marketer <span class="job-sub">— partner company (HR/Recruiting, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=Z3Jvd3RoLW1hbmFnZXItY2ZmYmFkZmQ/cmVmZXJyYWw9aHJiYWlyZXM=" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 4–6 years</span>
+        <span>💰 USD 2,000–3,500/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>A hands-on growth marketer: cross-channel campaigns, attribution and reporting built from scratch, with Gong, Salesforce and HubSpot.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Experience personally running cross-channel campaigns (not just directing a team)</li>
+          <li>Having built growth reporting, tracking and attribution from scratch, with measurable pipeline/revenue results</li>
+          <li>Hands-on with Gong, Salesforce and HubSpot</li>
+        </ul>
+        <div class="job-skills"><span>Gong</span><span>Salesforce</span><span>HubSpot</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="senior full stack engineer kafka react nest" data-dept="Engineering" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Senior Full-stack Engineer <span class="job-sub">— partner company (Cybersecurity, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=c2VuaW9yLWZ1bGwtc3RhY2stZW5naW5lZXItOTk3YTViMDM/cmVmZXJyYWw9aHJiYWlyZXM=" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 6+ years</span>
+        <span>💰 USD 5,500–8,500/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>Event-driven systems with Kafka in production, in a fintech/fraud-sensitive environment: React.js, Nest.js, TypeScript and databases at scale.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Proven Kafka in production: event-driven systems you built or maintained</li>
+          <li>Secure development in fraud-sensitive environments (fintech, payments, or PCI DSS exposure)</li>
+          <li>Database engineering at scale (PostgreSQL, MySQL)</li>
+        </ul>
+        <div class="job-skills"><span>Kafka</span><span>React.js</span><span>Nest.js</span><span>TypeScript</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="senior product engineer ai agents python node" data-dept="Engineering" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Senior Product Engineer <span class="job-sub">— partner company (Healthcare, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=c2VuaW9yLXByb2R1Y3QtZW5naW5lZXItNWUyMjE4M2I/cmVmZXJyYWw9aHJiYWlyZXM=" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 7+ years</span>
+        <span>💰 USD 5,000–7,500/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>Full-stack work in a fast-paced healthcare startup: Node.js, Python, AWS, and AI agents built into daily development.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>7+ years of full-stack development, strong in Node.js and Python</li>
+          <li>AWS and daily use of AI tools/agents in development</li>
+          <li>Experience shipping product in fast-paced, early-stage environments</li>
+        </ul>
+        <div class="job-skills"><span>Node.js</span><span>Python</span><span>AWS</span><span>AI Agents</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="ai data researcher rag python llm" data-dept="Data" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Data</span>
+          <h3>AI Data Researcher <span class="job-sub">— partner company (Productivity Software, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=YWktZGF0YS1yZXNlYXJjaGVyLTNjMGE3ZDgxP3JlZmVycmFsPWhyYmFpcmVz" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 4+ years</span>
+        <span>💰 USD 3,000–5,000/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>Own the company's gold-standard evaluation datasets and the services used to measure changes to their core AI product.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Building and maintaining gold-standard evaluation datasets</li>
+          <li>Prompting and retrieval (RAG) systems in Python</li>
+          <li>Measuring the impact of changes to the core AI product</li>
+        </ul>
+        <div class="job-skills"><span>Python</span><span>LLM</span><span>RAG</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="integrations back end engineer rest apis node" data-dept="Engineering" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Integrations Back-end Engineer <span class="job-sub">— partner company (SaaS Tools, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=aW50ZWdyYXRpb25zLWJhY2stZW5kLWVuZ2luZWVyLTJkNzYyYzdlP3JlZmVycmFsPWhyYmFpcmVz" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 6+ years</span>
+        <span>💰 USD 4,500–6,500/month</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>Integrations backend in Node.js and TypeScript: REST APIs, queues (SQS), and senior-level architecture for a SaaS product.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>6+ years of experience, with strong architecture-level thinking</li>
+          <li>REST APIs, Express.js and queues with Amazon SQS</li>
+          <li>PostgreSQL and AI technology integrations</li>
+        </ul>
+        <div class="job-skills"><span>Node.js</span><span>REST APIs</span><span>TypeScript</span><span>PostgreSQL</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="data architect target state sql nosql" data-dept="Data" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Data</span>
+          <h3>Data Architect <span class="job-sub">— partner company (Healthcare, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=ZGF0YS1hcmNoaXRlY3QtNmI1NGYyNTY/cmVmZXJyYWw9aHJiYWlyZXM=" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 8+ years</span>
+        <span>💰 USD 5,500–10,500/month · 6 months</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>Target-state data architecture design, migrating legacy environments into modern frameworks: SQL, NoSQL and relational databases.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Strong emphasis on hands-on experience migrating legacy environments</li>
+          <li>Target-state architecture design: SQL, NoSQL, relational databases</li>
+          <li>MySQL, PostgreSQL and AWS</li>
+          <li>6-month contract, 40h/week</li>
+        </ul>
+        <div class="job-skills"><span>SQL</span><span>NoSQL</span><span>AWS</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="full stack ai engineer llm rag api integrations" data-dept="Engineering" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Engineering</span>
+          <h3>Full-stack &amp; AI Engineer <span class="job-sub">— partner company (Consumer, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=ZnVsbC1zdGFjay1haS1lbmdpbmVlci1iMjdhYjE0YT9yZWZlcnJhbD1ocmJhaXJlcw==" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 5+ years</span>
+        <span>💰 USD 5,500–7,500/month · 1-month project</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>A short freelance engagement (~1 month, 25h/week) to build a proof of concept with LLM, RAG and API integrations.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Project engagement, not a long-term role — good fit for someone open to a brief freelance project</li>
+          <li>Building a proof of concept with LLM and RAG</li>
+          <li>API integrations</li>
+        </ul>
+        <div class="job-skills"><span>LLM</span><span>RAG</span><span>API Integrations</span></div>
+      </details>
+    </article>
+
+    <article class="job-card reveal" data-title="accounts payable specialist business central excel copilot" data-dept="Finance" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Finance</span>
+          <h3>Accounts Payable Specialist <span class="job-sub">— partner company (Enterprise Software, US)</span></h3>
+        </div>
+        <a href="https://app.onstrider.com/r/hrbaires?job=YWNjb3VudHMtcGF5YWJsZS1zcGVjaWFsaXN0LWViNDdjNzM1P3JlZmVycmFsPWhyYmFpcmVz" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Argentina, Brazil, Chile +6</span>
+        <span>💼 4+ years</span>
+        <span>💰 USD 2,000–2,500/month · 6 months</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>Accounts payable work with Business Central and Microsoft Copilot, on a full-time 6-month contract.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Managing accounts payable in Microsoft Dynamics Business Central</li>
+          <li>Advanced Excel and Microsoft Copilot used daily</li>
+          <li>Fixed-term contract: 6 months, full-time 40h/week</li>
+        </ul>
+        <div class="job-skills"><span>Business Central</span><span>MsExcel</span><span>Microsoft Copilot</span></div>
+      </details>
+    </article>
+
+    <p class="no-results" id="noResults">No open roles match those filters. Try a different combination.</p>
+  </div>
+</section>
+
+<section class="pyjama-banner">
+  <div class="wrap">
+    <p><strong>Want to see every open role, unfiltered?</strong><br>This list is updated by hand — our ATS always has the most current status.</p>
+    <a href="https://jobs.pyjamahr.com/hrbaires" target="_blank" rel="noopener" class="btn btn--outline-dark">View on our ATS ↗</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="footer-brand" href="hrbaires_home_en.html">
+        <img src="robot_black_v2.png" alt="HRBaires" width="233" height="233" loading="lazy">
+        <span>HRBAIRES</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="hrbaires_home_en.html#top">Home</a></li>
+          <li><a href="hrbaires_home_en.html#services">Services</a></li>
+          <li><a href="hrbaires_home_en.html#founder">About</a></li>
+          <li><a href="jobs_en.html">Jobs</a></li>
+          <li><a href="hrbaires_home_en.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>CABA, Buenos Aires · LatAm · NA · EMEA</span>
+      <span>© 2026 HRBaires. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="hrbaires_home_en.html#contact" class="floating-cta">Book a Call</a>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.main-nav');
+  if(toggle){
+    toggle.addEventListener('click', () => {
+      const isOpen = nav.style.display === 'flex';
+      nav.style.display = isOpen ? 'none' : 'flex';
+      nav.style.flexDirection = 'column';
+      nav.style.position = 'absolute';
+      nav.style.top = '76px';
+      nav.style.left = '0';
+      nav.style.right = '0';
+      nav.style.background = 'rgba(17,17,17,0.98)';
+      nav.style.padding = '24px 32px';
+      nav.style.borderBottom = '1px solid rgba(255,255,255,0.16)';
+    });
+  }
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window && revealEls.length){
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    revealEls.forEach(el => io.observe(el));
+  } else {
+    revealEls.forEach(el => el.classList.add('is-visible'));
+  }
+
+  // Filtering
+  (function(){
+    const search = document.getElementById('jobSearch');
+    const dept = document.getElementById('jobDept');
+    const modality = document.getElementById('jobModality');
+    const cards = Array.from(document.querySelectorAll('.job-card'));
+    const noResults = document.getElementById('noResults');
+    const count = document.getElementById('filtersCount');
+
+    function applyFilters(){
+      const q = search.value.trim().toLowerCase();
+      const d = dept.value;
+      const m = modality.value;
+      let visible = 0;
+      cards.forEach(card => {
+        const matchesQ = !q || card.dataset.title.includes(q);
+        const matchesD = !d || card.dataset.dept === d;
+        const matchesM = !m || card.dataset.modality === m;
+        const show = matchesQ && matchesD && matchesM;
+        card.style.display = show ? '' : 'none';
+        if(show) visible++;
+      });
+      noResults.style.display = visible === 0 ? 'block' : 'none';
+      count.textContent = visible + (visible === 1 ? ' open role' : ' open roles');
+    }
+
+    search.addEventListener('input', applyFilters);
+    dept.addEventListener('change', applyFilters);
+    modality.addEventListener('change', applyFilters);
+    applyFilters();
+  })();
+</script>
+
+</body>
+</html>
