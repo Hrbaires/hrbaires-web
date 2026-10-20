@@ -1,0 +1,25 @@
+# HRBaires
+
+> HRBaires is a boutique recruiting and staffing partner for high-growth startups across LatAm, NA and EMEA, specialized in fintech, SaaS and Web3/crypto. Founded by Pablo Sojo, based in Buenos Aires, Argentina.
+
+HRBaires works directly with founders and executives on two core services:
+
+- **Recruiting**: full-cycle search — defining the role, compensation and org structure before sourcing starts, for high-growth startups in fintech, SaaS and Web3.
+- **Staffing / Staff Augmentation**: embedded recruiting for companies hiring across LatAm — engineers, growth and ops roles, plus RPO and HR/admin backoffice — without building a local HR function from scratch.
+
+Executive Search, Hiring Advisory and RPO are offered as extensions of these two services when the need calls for it.
+
+Track record: average fill time of 1–2 weeks, high 12-month+ retention, and a replacement guarantee on every search. Experience includes scaling teams at Vostu (25 → 850 employees), Playtika/House of Fun (5 → 60 in Argentina within a ~400-person global team), The Sandbox (0 → 550+ employees across 6 countries in under 18 months), and Bondex (Seed → TGE, June 2025, USD 10M+ raised). Current and past clients include Sauce, Cedalio, Dive, Grupo Hasar, Composable Finance, Gurpi, Skipit, Boomerang, Caldera, Southteams and Hakuna.
+
+## Main pages
+
+- [Home (Spanish)](https://www.hrbaires.com/): Company overview, services, process, track record, testimonials and contact form.
+- [Home (English)](https://www.hrbaires.com/hrbaires_home_en.html): English version of the home page.
+- [Jobs (Spanish)](https://www.hrbaires.com/jobs.html): Open positions at HRBaires and at partner companies, filterable by area and modality.
+- [Jobs (English)](https://www.hrbaires.com/jobs_en.html): English version of the jobs page.
+
+## Contact
+
+- Email: pablo@hrbaires.com
+- Location: CABA, Buenos Aires, Argentina — serving clients across LatAm, North America and EMEA.
+- LinkedIn: https://www.linkedin.com/company/hrbaires/
