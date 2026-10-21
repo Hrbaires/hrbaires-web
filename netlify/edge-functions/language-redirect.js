@@ -4,7 +4,7 @@ export default async (request, context) => {
           return;
     }
 
-    const cookieHeader = request.headers.get("cookie") || "";
+    const userAgent = request.headers.get("user-agent") || ""; const isBot = /bot|crawl|spider|slurp|facebookexternalhit|embedly|slackbot|whatsapp|telegrambot|discordbot|applebot/i.test(userAgent); if (isBot) { return context.next(); } const cookieHeader = request.headers.get("cookie") || "";
     const match = cookieHeader.match(/hrb_lang=(es|en)/);
 
     let lang;
