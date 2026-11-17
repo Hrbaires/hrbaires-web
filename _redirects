@@ -1,3 +1,5 @@
 https://hrbaires.com/*  https://www.hrbaires.com/:splat  301!
 http://hrbaires.com/*  https://www.hrbaires.com/:splat  301!
 http://www.hrbaires.com/*  https://www.hrbaires.com/:splat  301!
+/hrbaires_home_es.html  /index.html  200!
+/hrbaires_home_es  /index.html  200!

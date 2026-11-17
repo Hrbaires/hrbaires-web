@@ -150,6 +150,8 @@
     transition:transform .2s ease,border-color .2s ease;
   }
   .job-card:hover{transform:translateY(-2px);}
+  .job-card--hot{border:2px solid var(--yellow);border-left:6px solid var(--yellow);background:#FFFCEB;}
+  .job-hot{display:inline-block;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--yellow);background:var(--ink);padding:4px 10px;border-radius:999px;margin:0 0 10px 6px;}
   .job-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;}
   .job-card-title{flex:1 1 420px;}
   .job-tag{
@@ -236,7 +238,7 @@
     .pyjama-banner .wrap{flex-direction:column;align-items:flex-start;}
   }
 </style>
-</head>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{var hc=localStorage.getItem('hrb_consent');if(hc==='granted'||hc==='denied'){gtag('consent','update',{analytics_storage:hc});}}catch(e){}gtag('js',new Date());gtag('config','G-GW56MBJZHV');</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-GW56MBJZHV"></script><script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z1ab3ze67o");try{var hc2=localStorage.getItem('hrb_consent');if(hc2){window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:hc2})}}catch(e){}</script></head>
 <body>
 
 <header>
@@ -280,9 +282,7 @@
       <div class="field">
         <select id="jobDept" aria-label="Filter by department">
           <option value="">All departments</option>
-          <option value="Operaciones">Operations / Technical</option>
           <option value="Data">Data</option>
-          <option value="IT">IT</option>
           <option value="Engineering">Engineering</option>
           <option value="Marketing">Marketing</option>
           <option value="Finance">Finance</option>
@@ -304,26 +304,52 @@
 <section class="job-list">
   <div class="wrap">
 
-    <article class="job-card reveal" data-title="technical service manager heavy machinery industrial equipment" data-dept="Operaciones" data-modality="In-Office">
+    <article class="job-card job-card--hot reveal" data-hot="1" data-title="aem support engineer adobe experience manager java" data-dept="Engineering" data-modality="Remote">
       <div class="job-card-head">
         <div class="job-card-title">
-          <span class="job-tag">Operations</span>
-          <h3>Technical Service Manager <span class="job-sub">— Heavy Machinery & Industrial Equipment</span></h3>
+          <span class="job-tag">Engineering</span><span class="job-hot">🔥 Hot</span>
+          <h3>AEM Support Engineer</h3>
         </div>
-        <a href="https://jobs.pyjamahr.com/hrbaires/responsable-de-servicio-tecnico-maquinaria-pesada-y-equipos-industriales" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+        <a href="https://jobs.pyjamahr.com/hrbaires/aem-support-engineer" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
       </div>
       <div class="job-meta">
-        <span>📍 On-site · Villa Adelina, Buenos Aires</span>
-        <span>💼 2–4 years</span>
+        <span>📍 Remote · Argentina</span>
+        <span>💼 3–8 years</span>
       </div>
       <details class="job-details">
         <summary>View role details</summary>
-        <p>You'll lead the technical service area for heavy machinery and industrial equipment: diagnostics, maintenance, and managing the on-site technical team.</p>
+        <p>Application support for Adobe Experience Manager (AEM) on the platform of a world-leading CRM, with internationally distributed teams. A 100% technical role (not content authoring). Full-time employment; C1 English required.</p>
         <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
-          <li>Planning and overseeing preventive and corrective maintenance</li>
-          <li>Managing and developing the on-site technical team</li>
-          <li>Diagnosing faults on heavy machinery and industrial equipment</li>
+          <li>Support for sites and applications built on AEM</li>
+          <li>Production incident management: troubleshooting, triage, escalation and on-call rotations</li>
+          <li>Monitoring of clustered AEM environments, deployments and content migrations</li>
+          <li>Documentation of solutions, procedures and SOPs</li>
         </ul>
+        <div class="job-skills"><span>AEM</span><span>Java</span><span>JavaScript</span><span>Linux</span><span>English C1</span></div>
+      </details>
+    </article>
+    <article class="job-card job-card--hot reveal" data-hot="1" data-title="lead data scientist python pyspark machine learning" data-dept="Data" data-modality="Remote">
+      <div class="job-card-head">
+        <div class="job-card-title">
+          <span class="job-tag">Data</span><span class="job-hot">🔥 Hot</span>
+          <h3>Lead Data Scientist</h3>
+        </div>
+        <a href="https://jobs.pyjamahr.com/hrbaires/lead-data-scientist" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
+      </div>
+      <div class="job-meta">
+        <span>📍 Remote · Europe (UTC+2 hours)</span>
+        <span>💼 5–8 years</span>
+      </div>
+      <details class="job-details">
+        <summary>View role details</summary>
+        <p>Privacy-preserving data collaboration fintech (Series A) with teams across South Africa, the UK, the US, the UAE and Brazil. Second-in-command to the Head of Data Science, with occasional travel to Johannesburg or Cape Town.</p>
+        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
+          <li>Own the analytical roadmap and end-to-end client analytics delivery</li>
+          <li>Production-grade Python and ML models in production</li>
+          <li>Mentor the team and provide technical leadership</li>
+          <li>Drive the migration from SQL/Azure Synapse/Power BI to PySpark and Delta Lake with AI-first workflows</li>
+        </ul>
+        <div class="job-skills"><span>Python</span><span>PySpark</span><span>Delta Lake</span><span>Machine Learning</span><span>Azure</span></div>
       </details>
     </article>
 
@@ -352,32 +378,6 @@
         <div class="job-skills"><span>SQL</span><span>Python</span><span>BigQuery</span><span>dbt</span><span>PostgreSQL</span></div>
       </details>
     </article>
-
-    <article class="job-card reveal" data-title="it help desk specialist" data-dept="IT" data-modality="Remote">
-      <div class="job-card-head">
-        <div class="job-card-title">
-          <span class="job-tag">IT</span>
-          <h3>IT Help Desk Specialist</h3>
-        </div>
-        <a href="https://jobs.pyjamahr.com/hrbaires/it-help-desk-specialist" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Apply ↗</a>
-      </div>
-      <div class="job-meta">
-        <span>📍 Remote · Latin America</span>
-        <span>💼 2–4 years</span>
-      </div>
-      <details class="job-details">
-        <summary>View role details</summary>
-        <p>Day-to-day technical support: IT tickets, Windows and Outlook troubleshooting, password and permission issues — covering U.S. time zones. Customer-facing position, C2 English required.</p>
-        <ul style="margin:12px 0 0 18px;font-size:14px;color:var(--graphite);">
-          <li>First-line IT support and ticket resolution</li>
-          <li>Windows, Outlook and server access troubleshooting</li>
-          <li>Password and user permission management</li>
-          <li>Time zone coverage for West Coast and East Coast (U.S.) users</li>
-        </ul>
-        <div class="job-skills"><span>Windows</span><span>Outlook</span><span>IT Help Desk</span></div>
-      </details>
-    </article>
-
     <article class="job-card reveal" data-title="python backend developer aws integrations" data-dept="Engineering" data-modality="Hybrid">
       <div class="job-card-head">
         <div class="job-card-title">
@@ -812,5 +812,5 @@
   })();
 </script>
 
-</body>
+<div id="hrb-cb" style="display:none;position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:560px;margin:0 auto;background:#111;color:#fff;padding:16px 18px;border-radius:12px;font:14px/1.5 Inter,Arial,sans-serif;border:1px solid #FFD400;box-shadow:0 8px 32px rgba(0,0,0,.55)"><span id="hrb-cb-t"></span><div style="margin-top:12px;display:flex;gap:8px;justify-content:flex-end"><button type="button" id="hrb-cb-n" style="background:transparent;color:#fff;border:1px solid #555;border-radius:8px;padding:8px 14px;cursor:pointer;font:inherit"></button><button type="button" id="hrb-cb-y" style="background:#FFD400;color:#111;border:0;border-radius:8px;padding:8px 14px;cursor:pointer;font:inherit;font-weight:700"></button></div></div><script>(function(){var en=(document.documentElement.lang||'').indexOf('en')===0;var b=document.getElementById('hrb-cb');var c=null;try{c=localStorage.getItem('hrb_consent')}catch(e){}var eu=false;try{eu=/^Europe\//.test(Intl.DateTimeFormat().resolvedOptions().timeZone)}catch(e){}document.getElementById('hrb-cb-t').textContent=en?'We use analytics cookies to understand how visitors use this site.':'Usamos cookies de analítica para entender cómo se usa este sitio.';document.getElementById('hrb-cb-y').textContent=en?'Accept':'Aceptar';document.getElementById('hrb-cb-n').textContent=en?'Decline':'Rechazar';function setC(v){try{localStorage.setItem('hrb_consent',v)}catch(e){}gtag('consent','update',{analytics_storage:v});if(window.clarity){window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:v})}b.style.display='none'}document.getElementById('hrb-cb-y').onclick=function(){setC('granted')};document.getElementById('hrb-cb-n').onclick=function(){setC('denied')};if(eu&&!c){b.style.display='block'}var f=document.getElementById('contactForm');if(f){f.addEventListener('submit',function(){gtag('event','generate_lead',{form_name:f.getAttribute('name')||'contacto',page_language:en?'en':'es'})})}})();</script></body>
 </html>
