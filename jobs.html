@@ -150,6 +150,8 @@
     transition:transform .2s ease,border-color .2s ease;
   }
   .job-card:hover{transform:translateY(-2px);}
+  .job-card--hot{border:2px solid var(--yellow);border-left:6px solid var(--yellow);background:#FFFCEB;}
+  .job-hot{display:inline-block;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--yellow);background:var(--ink);padding:4px 10px;border-radius:999px;margin:0 0 10px 6px;}
   .job-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;}
   .job-card-title{flex:1 1 420px;}
   .job-tag{
@@ -302,10 +304,10 @@
 <section class="job-list">
   <div class="wrap">
 
-    <article class="job-card reveal" data-title="aem support engineer adobe experience manager java" data-dept="Engineering" data-modality="Remote">
+    <article class="job-card job-card--hot reveal" data-hot="1" data-title="aem support engineer adobe experience manager java" data-dept="Engineering" data-modality="Remote">
       <div class="job-card-head">
         <div class="job-card-title">
-          <span class="job-tag">Engineering</span>
+          <span class="job-tag">Engineering</span><span class="job-hot">🔥 Hot</span>
           <h3>AEM Support Engineer</h3>
         </div>
         <a href="https://jobs.pyjamahr.com/hrbaires/aem-support-engineer" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Postular ↗</a>
@@ -326,10 +328,10 @@
         <div class="job-skills"><span>AEM</span><span>Java</span><span>JavaScript</span><span>Linux</span><span>Inglés C1</span></div>
       </details>
     </article>
-    <article class="job-card reveal" data-title="lead data scientist python pyspark machine learning" data-dept="Data" data-modality="Remote">
+    <article class="job-card job-card--hot reveal" data-hot="1" data-title="lead data scientist python pyspark machine learning" data-dept="Data" data-modality="Remote">
       <div class="job-card-head">
         <div class="job-card-title">
-          <span class="job-tag">Data</span>
+          <span class="job-tag">Data</span><span class="job-hot">🔥 Hot</span>
           <h3>Lead Data Scientist</h3>
         </div>
         <a href="https://jobs.pyjamahr.com/hrbaires/lead-data-scientist" target="_blank" rel="noopener" class="btn btn--solid-ink btn--sm job-apply">Postular ↗</a>
